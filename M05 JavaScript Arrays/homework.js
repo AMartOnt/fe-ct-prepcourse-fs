@@ -3,34 +3,41 @@
 function devolverPrimerElemento(array) {
    // Retornar el primer elemento del arreglo recibido por parámetro.
    // Tu código:
+   return (array [0]);
 }
 
 function devolverUltimoElemento(array) {
    // Retornar el último elemento del arreglo recibido por parámetro.
    // Tu código:
+   return (array[array.length - 1]);
 }
 
 function obtenerLargoDelArray(array) {
    // Retornar la longitud del arreglo recibido por parámetro.
    // Tu código:
+   return (array.length);
 }
 
 function incrementarPorUno(array) {
    // El arreglo recibido por parámetro contiene números.
    // Retornar un arreglo con los elementos incrementados en +1.
-   // Tu código:
+   // Tu código: 
+   var nuevoArray = [];
+   for (v; i < array.length; i++) {
+      nuevoArray.push(array[i]+1)
+   } return nuevoArray;
 }
 
 function agregarItemAlFinalDelArray(array, elemento) {
    // Agrega el "elemento" al final del arreglo recibido.
    // Retorna el arreglo.
-   // Tu código:
+   // Tu código: PUSH
 }
 
 function agregarItemAlComienzoDelArray(array, elemento) {
    // Agrega el "elemento" al comienzo del arreglo recibido.
    // Retorna el arreglo.
-   // Tu código:
+   // Tu código: UNSHIFT
 }
 
 function dePalabrasAFrase(palabras) {
@@ -38,19 +45,19 @@ function dePalabrasAFrase(palabras) {
    // Retornar un string donde todas las palabras estén concatenadas
    // con un espacio entre cada palabra.
    // Ejemplo: ['Hello', 'world!'] -> 'Hello world!'.
-   // Tu código:
+   // Tu código: SPLIT - JOIN
 }
 
 function arrayContiene(array, elemento) {
    // Verifica si el elemento existe dentro del arreglo recibido.
    // Retornar true si está, o false si no está.
-   // Tu código:
+   // Tu código: INCLUDES
 }
 
 function agregarNumeros(arrayOfNums) {
    // El parámetro "arrayOfNums" debe ser un arreglo de números.
    // Suma todos los elementos y retorna el resultado.
-   // Tu código:
+   // Tu código: 
 }
 
 function promedioResultadosTest(resultadosTest) {
